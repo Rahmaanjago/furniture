@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  color: hsl(0, 0%, 63%);
+  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 27%);
+}
+
+/* header{
+    display: flex;
+}
+
+.section_1{
+    background-image: url(images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    width: 66%;
+    height: 69vh;
+    overflow: hidden;
+}
+
+nav{
+    padding: 4rem 4rem 0 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+nav img{
+    height: 1rem;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.navigation ul li{
+    list-style: none;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.navigation ul li:hover{
+    padding-bottom: .5rem;
+    border-bottom: 2px solid white;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.slide_1{
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    height: 69vh;
+    padding: 6.5rem 5.5rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.slide_1 h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: none;
+}
+
+.slide_1 p{
+    font-weight: 600;
+    color: hsl(0, 0%, 63%);
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+
+.slide_1 .shop{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+
+.slide_1 .shop:hover{
+    background-color: hsl(0, 0%, 63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all .3s ease-in-out;
+}
+.nav-cursor{
+    background-color: black;
+    padding: 1rem 2.1rem 1.4rem 2.1rem;
+    display: flex;
+    gap: 3rem;
+    position: relative;
+    left: -6rem;
+    top: -1.9rem;
+    width: max-content;
+    cursor: pointer;
+}
+
+.nav-cursor:hover{
+    background-color: hsl(0, 0%, 63%);
+    transition: all .75s ease;
+}
+
+.section_2{
+    display: flex;
+    margin-top: -6.5rem;
+}
+
+.nothin{
+    background-image: url(images/image-about-dark.jpg);
+    width: 30%;
+    height: 31vh;
+    
+}
+
+.about_information{
+    width: 32%;
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-content: flex-start;
+    justify-content: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.about_information h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .2rem;
+}
+
+.about_information p{
+    font-weight: 600;
+    color: hsl(0, 0%, 63%);
+    font-size: .9rem;
+    line-height: 1.3rem;
+    
+}
+
+.somethin{
+    background-image: url(images/image-about-light.jpg);
+    width: 30%;
+    height: 31vh;
+} */
+
+@media only screen and (max-width: 770px) {
+
+
+  .body{
+    width: 360px;
+    height: fit-content;
+  }  
+  .section_1 {
+    background-image: url(images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    
+  }
+
+  nav {
+    padding: 2rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: small;
+  }
+
+  nav img {
+    height: 1rem;
+  }
+
+  .navigation ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .navigation ul li {
+    list-style: none;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .slide_1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem 2rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav-cursor {
+    background-color: black;
+    padding: 1rem 2.1rem 1.4rem 2.1rem;
+    display: flex;
+    gap: 3rem;
+    position: relative;
+    left: 0rem;
+    /* bottom: -9rem; */
+    width: max-content;
+    cursor: pointer;
+  }
+
+  .slide_1 h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: none;
+  }
+
+  .slide_1 p {
+    font-weight: 600;
+    color: hsl(0, 0%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+  .slide_1 .shop {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+  }
+
+  .slide_1 .shop:hover {
+    background-color: hsl(0, 0%, 63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .section_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nothin {
+    background-image: url(images/image-about-dark.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+  }
+
+  .about_information {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-content: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .about_information h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+  }
+
+  .about_information p {
+    font-weight: 600;
+    color: hsl(0, 0%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+  .somethin {
+    background-image: url(images/image-about-light.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+  }
+
+  .nav-cursor:hover {
+    background-color: hsl(0, 0%, 63%);
+    transition: all 0.75s ease;
+  }
+
+  .slide_1 .shop:hover {
+    background-color: hsl(0, 0%, 63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navigation ul li:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+}
