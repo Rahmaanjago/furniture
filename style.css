@@ -25,164 +25,157 @@ ul {
   color: hsl(0, 0%, 27%);
 }
 
-/* header{
-    display: flex;
+header {
+  display: flex;
 }
 
-.section_1{
-    background-image: url(images/desktop-image-hero-1.jpg);
-    background-size: cover;
-    width: 66%;
-    height: 69vh;
-    overflow: hidden;
+.section_1 {
+  background-image: url(images/desktop-image-hero-1.jpg);
+  background-size: cover;
+  width: 66%;
+  height: 69vh;
+  overflow: hidden;
 }
 
-nav{
-    padding: 4rem 4rem 0 4rem;
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
+nav {
+  padding: 4rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
 }
 
-nav img{
-    height: 1rem;
+nav img {
+  height: 1rem;
 }
 
-.navigation ul{
-    display: flex;
-    gap: 2rem;
-    
+.navigation ul {
+  display: flex;
+  gap: 2rem;
 }
 
-.navigation ul li{
-    list-style: none;
-    font-weight: 600;
-    color: hsl(0, 0%, 100%);
+.navigation ul li {
+  list-style: none;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
 }
 
-.navigation ul li:hover{
-    padding-bottom: .5rem;
-    border-bottom: 2px solid white;
-    transition: all .5s ease-in-out;
-    cursor: pointer;
+.navigation ul li:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-
-.slide_1{
-    background-color: hsl(0, 0%, 100%);
-    width: 30%;
-    height: 69vh;
-    padding: 6.5rem 5.5rem 0 6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
+.slide_1 {
+  background-color: hsl(0, 0%, 100%);
+  width: 30%;
+  height: 69vh;
+  padding: 6.5rem 5.5rem 0 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.slide_1 h1{
-    font-weight: 700;
-    font-size: 2.5rem;
-    letter-spacing: none;
+.slide_1 h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: none;
 }
 
-.slide_1 p{
-    font-weight: 600;
-    color: hsl(0, 0%, 63%);
-    font-size: .9rem;
-    line-height: 1.3rem;
+.slide_1 p {
+  font-weight: 600;
+  color: hsl(0, 0%, 63%);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
 }
 
-.slide_1 .shop{
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    cursor: pointer;
+.slide_1 .shop {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  cursor: pointer;
 }
 
-.slide_1 .shop:hover{
-    background-color: hsl(0, 0%, 63%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: all .3s ease-in-out;
+.slide_1 .shop:hover {
+  background-color: hsl(0, 0%, 63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease-in-out;
 }
-.nav-cursor{
-    background-color: black;
-    padding: 1rem 2.1rem 1.4rem 2.1rem;
-    display: flex;
-    gap: 3rem;
-    position: relative;
-    left: -6rem;
-    top: -1.9rem;
-    width: max-content;
-    cursor: pointer;
-}
-
-.nav-cursor:hover{
-    background-color: hsl(0, 0%, 63%);
-    transition: all .75s ease;
+.nav-cursor {
+  background-color: black;
+  padding: 1rem 2.1rem 1.4rem 2.1rem;
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  left: -6rem;
+  bottom: -1.9rem;
+  width: max-content;
+  cursor: pointer;
 }
 
-.section_2{
-    display: flex;
-    margin-top: -6.5rem;
+.nav-cursor:hover {
+  background-color: hsl(0, 0%, 63%);
+  transition: all 0.75s ease;
 }
 
-.nothin{
-    background-image: url(images/image-about-dark.jpg);
-    width: 30%;
-    height: 31vh;
-    
+.section_2 {
+  display: flex;
+  margin-top: -6.5rem;
 }
 
-.about_information{
-    width: 32%;
-    height: 31vh;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-content: flex-start;
-    justify-content: center;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-.about_information h1{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: .2rem;
+.nothin {
+  background-image: url(images/image-about-dark.jpg);
+  width: 30%;
+  height: 31vh;
 }
 
-.about_information p{
-    font-weight: 600;
-    color: hsl(0, 0%, 63%);
-    font-size: .9rem;
-    line-height: 1.3rem;
-    
+.about_information {
+  width: 32%;
+  height: 31vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-content: flex-start;
+  justify-content: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.about_information h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
 }
 
-.somethin{
-    background-image: url(images/image-about-light.jpg);
-    width: 30%;
-    height: 31vh;
-} */
+.about_information p {
+  font-weight: 600;
+  color: hsl(0, 0%, 63%);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.somethin {
+  background-image: url(images/image-about-light.jpg);
+  width: 30%;
+  height: 31vh;
+}
 
 @media only screen and (max-width: 770px) {
-
-
-  .body{
-    width: 360px;
-    height: fit-content;
-  }  
+  header {
+    display: flex;
+    flex-direction: column;
+  }
   .section_1 {
     background-image: url(images/desktop-image-hero-1.jpg);
     background-size: cover;
     width: 100%;
-    height: 200px;
-    
+    height: 300px;
   }
 
   nav {
+    width: fit-content;
     padding: 2rem 1rem 0 1rem;
     display: flex;
     flex-direction: row;
@@ -211,6 +204,7 @@ nav img{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: fit-content;
   }
 
   .nav-cursor {
@@ -220,7 +214,7 @@ nav img{
     gap: 3rem;
     position: relative;
     left: 0rem;
-    /* bottom: -9rem; */
+    bottom: -9rem;
     width: max-content;
     cursor: pointer;
   }
@@ -267,6 +261,7 @@ nav img{
   }
 
   .about_information {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 1rem;
